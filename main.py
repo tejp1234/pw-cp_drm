@@ -142,7 +142,19 @@ async def account_login(bot: Client, m: Message):
     input4: Message = await bot.listen(editable.chat.id)
     pw_token = input4.text
     await input4.delete(True)
+    
+    await editable.edit("Now send the **Thumb url**\nEg : ```https://i.ibb.co/zTPJFct8/photo-2025-04-25-12-55-01-7497233558289776672.jpg```\n\nor Send No`")
+    input6 = message = await bot.listen(editable.chat.id)
+    raw_text6 = input6.text
+    await input6.delete(True)
+    await editable.delete()
 
+    thumb = input6.text
+    if thumb.startswith("http://") or thumb.startswith("https://"):
+        getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
+        thumb = "thumb.jpg"
+    else:
+        thumb = "No"
 
     if len(links) == 1:
         count = 1
