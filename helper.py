@@ -102,17 +102,12 @@ async def download_video(url, cmd, name):
     except FileNotFoundError as exc:
         return os.path.isfile.splitext[0] + "." + "mp4"
         
-async def send_vid(bot: Client, m: Message, cc, filename, thumb, name):
+async def send_vid(bot: Client, m: Message, cc, filename, name):
 
     reply = await m.reply_text(f"**UPLOADING » {name}**")
     
     subprocess.run(f'ffmpeg -i "{filename}" -ss 00:01:00 -vframes 1 "{filename}.jpg"', shell=True)
     
-    try:
-        if thumb == "No":
-            thumbnail = f"{filename}.jpg"
-        else:
-            thumbnail = thumb
     except Exception as e:
         await m.reply_text(str(e))
 
