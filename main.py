@@ -143,11 +143,6 @@ async def account_login(bot: Client, m: Message):
     pw_token = input4.text
     await input4.delete(True)
 
-    await editable.edit("Now send the **Thumb url**\nEg : ```https://telegra.ph/file/0633f8b6a6f110d34f044.jpg```\n\nor Send No`")
-    input6 = message = await bot.listen(editable.chat.id)
-    raw_text6 = input6.text
-    await input6.delete(True)
-    await editable.delete()
 
     if len(links) == 1:
         count = 1
@@ -248,7 +243,7 @@ async def account_login(bot: Client, m: Message):
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
-                    await helper.send_vid(bot, m, cc, filename, thumb, name)
+                    await helper.send_vid(bot, m, cc, filename, name)
                     count += 1
 
             except Exception as e:
