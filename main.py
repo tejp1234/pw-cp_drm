@@ -206,8 +206,7 @@ async def account_login(bot: Client, m: Message):
                     url = res["url"]
 
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-                url = f"https://pwplayer-38c1ae95b681.herokuapp.com/pw?url=https://d1d34p8vz63oiq.cloudfront.net/a32f0885-cf0b-41d4-8b0c-8dd04f7e6ff2/master.mpd&parentId=676ad9449870d50ffe5fec56&childId=681251d561c8873cc0bdc7d5&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDc4MzIxODYuMDU3LCJkYXRhIjp7Il9pZCI6IjYyNTU5OGEzM2ViMTRiMDAxODJkNTI0YiIsInVzZXJuYW1lIjoiODM0MDQxNjI5OCIsImZpcnN0TmFtZSI6IkNoaXRyYW5qYW4iLCJsYXN0TmFtZSI6IlNpbmdoIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiY2hpdHJhbmphbnNpbmdoODA0QGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTc0NzIyNzM4Nn0.AoStHZazcR6RcrOeJxsYeg7VKFdw6IyWmLeWpvv8_tM
-"
+                url = f"https://pwplayer-38c1ae95b681.herokuapp.com/pw?url=https://d1d34p8vz63oiq.cloudfront.net/a32f0885-cf0b-41d4-8b0c-8dd04f7e6ff2/master.mpd&parentId=676ad9449870d50ffe5fec56&childId=681251d561c8873cc0bdc7d5&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDc4MzIxODYuMDU3LCJkYXRhIjp7Il9pZCI6IjYyNTU5OGEzM2ViMTRiMDAxODJkNTI0YiIsInVzZXJuYW1lIjoiODM0MDQxNjI5OCIsImZpcnN0TmFtZSI6IkNoaXRyYW5qYW4iLCJsYXN0TmFtZSI6IlNpbmdoIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiY2hpdHJhbmphbnNpbmdoODA0QGdtYWlsLmNvbSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTc0NzIyNzM4Nn0.AoStHZazcR6RcrOeJxsYeg7VKFdw6IyWmLeWpvv8_tM"
                 
             else:
                 url = url
