@@ -206,7 +206,7 @@ async def account_login(bot: Client, m: Message):
                     url = res["url"]
 
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-                url = f"https://pwplayer-38c1ae95b681.herokuapp.com/pw?url=%7Burl%7D&token=%7Bpw_token%7D"
+                url = f"https://pwplayer-38c1ae95b681.herokuapp.com/pw?url={url}&token={pw_token}"
                 
             else:
                 url = url
