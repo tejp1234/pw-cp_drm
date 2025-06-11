@@ -1,5 +1,5 @@
-api_id = "29538829"
-api_hash = "0098baaaa11b512a0a8b8eaf33a4d91a"
-bot_token = "7832589970:AAHWWZQaoQjzS7amVk9-shpyf2NwP0nQnBY"
-auth_users = [1118716436,6443740402]
-sudo_users = [1118716436]
+api_id = "27307674"
+api_hash = "fa234730dc7fbe45cab70e9f242f1a94"
+bot_token = "7654941709:AAGZW46h-i0-3tgWjozFpjtCkeyTf_Yo53w"
+auth_users = [5454527420]
+sudo_users = [5454527420]
